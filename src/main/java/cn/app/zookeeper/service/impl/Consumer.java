@@ -15,7 +15,7 @@ public class Consumer {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(new String[]{"application-context.xml"});
         context.start();
         //
-        System.out.println("End to load--Consumer");
+        System.out.println("End to load--Conddddsumer");
 
         DemoService demoService = (DemoService) context.getBean("demoService");
         String result = demoService.sayHello("World");
