@@ -4,7 +4,7 @@ import cn.app.zookeeper.service.DemoService;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
- * 测试客户端
+ * 测试客户端测试能够拉到Idea
  * Created by goujy on 2017/3/30.
  */
 public class Consumer {
